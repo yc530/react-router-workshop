@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 import './index.css';
 import { Routes, Route, Link } from "react-router-dom";
-=======
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import Blue from './components/blue';
->>>>>>> 23e5065 (added useParam and shades)
 import Red from './components/red';
 import Orange from './components/orange';
 import Yellow from './components/yellow';
@@ -31,17 +28,14 @@ function App() {
       <div id="main-section">
         <Routes>
           <Route path="/" element={<Home />}></Route>
-<<<<<<< HEAD
           <Route path="/red" element={<Red />}></Route>
           <Route path="/orange" element={<Orange />}></Route>
           <Route path="/yellow" element={<Yellow />}></Route>
           <Route path="/green" element={<Green />}></Route>
           <Route path="/blue" element={<Blue />}></Route>
           <Route path="/violet" element={<Violet />}></Route>
-=======
           <Route path="/blue/:shade" element={<Blue />}></Route>
           <Route path="/red/:shade" element={<Red />}></Route>
->>>>>>> 23e5065 (added useParam and shades)
         </Routes>
       </div>
     </div>
