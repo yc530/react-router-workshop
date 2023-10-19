@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import './index.css';
 import { Routes, Route, Link } from "react-router-dom";
+=======
+import './App.css';
+import { Routes, Route, Link, useParams } from "react-router-dom";
+import Blue from './components/blue';
+>>>>>>> 23e5065 (added useParam and shades)
 import Red from './components/red';
 import Orange from './components/orange';
 import Yellow from './components/yellow';
@@ -7,6 +13,11 @@ import Green from './components/green';
 import Blue from './components/blue';
 import Violet from './components/violet';
 import Home from './components/home';
+
+const shades = {
+  blue: ['skyblue', 'navy', 'royalblue'],
+  red: ['crimson', 'firebrick', 'darkred'],
+};
 
 function App() {
 
@@ -25,12 +36,17 @@ function App() {
       <div id="main-section">
         <Routes>
           <Route path="/" element={<Home />}></Route>
+<<<<<<< HEAD
           <Route path="/red" element={<Red />}></Route>
           <Route path="/orange" element={<Orange />}></Route>
           <Route path="/yellow" element={<Yellow />}></Route>
           <Route path="/green" element={<Green />}></Route>
           <Route path="/blue" element={<Blue />}></Route>
           <Route path="/violet" element={<Violet />}></Route>
+=======
+          <Route path="/blue/:shade" element={<Blue />}></Route>
+          <Route path="/red/:shade" element={<Red />}></Route>
+>>>>>>> 23e5065 (added useParam and shades)
         </Routes>
       </div>
     </div>
