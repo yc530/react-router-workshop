@@ -42,6 +42,14 @@ function App() {
           <Route path="/violet/:shades" element={<Violet />}></Route>
         </Routes>
       </div>
+      <footer className="footer">
+        <Link to="/red">Red</Link>
+        <Link to="orange">Orange</Link>
+        <Link to="yellow">Yellow</Link>
+        <Link to="green">Green</Link>
+        <Link to="blue">Blue</Link>
+        <Link to="violet">Violet</Link>
+      </footer>
     </div>
     </>
   )

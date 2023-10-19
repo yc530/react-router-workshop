@@ -69,3 +69,10 @@ body > div {
   background-color: orange;
   color: blue;
 }
+
+.footer {
+  font-size: 30px;
+  position: sticky;
+  width: 100vw;
+  bottom: 0px;
+}
