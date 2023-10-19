@@ -7,7 +7,7 @@ const {shade} = useParams();
     return (
       <>
         <div className="red">
-            <h1>Red - Shade: {shade}</h1>
+            <h1>Red</h1>
         </div>
       </>
     )
