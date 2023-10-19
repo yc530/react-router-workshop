@@ -1,5 +1,7 @@
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
+import Blue from './components/blue';
+import Red from './components/red';
 
 function App() {
 
@@ -13,8 +15,8 @@ function App() {
       </div>
       <div id="main-section">
         <Routes>
-          <Route path="/blue" element={<h1>Blue</h1>}></Route>
-          <Route path="/red" element={<h1>Red</h1>}></Route>
+          <Route path="/blue" element={<Blue />}></Route>
+          <Route path="/red" element={<Red />}></Route>
         </Routes>
       </div>
     </div>
