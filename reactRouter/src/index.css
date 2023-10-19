@@ -40,8 +40,28 @@ body > div {
   color: white;
 }
 
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
 .blue {
   background-color: #275db3;
+  color: white;
+}
+
+.violet {
+  background-color: violet;
   color: white;
 }
 
