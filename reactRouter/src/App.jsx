@@ -3,7 +3,7 @@ import './index.css';
 import { Routes, Route, Link } from "react-router-dom";
 =======
 import './App.css';
-import { Routes, Route, Link, useParams } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Blue from './components/blue';
 >>>>>>> 23e5065 (added useParam and shades)
 import Red from './components/red';
@@ -13,11 +13,6 @@ import Green from './components/green';
 import Blue from './components/blue';
 import Violet from './components/violet';
 import Home from './components/home';
-
-const shades = {
-  blue: ['skyblue', 'navy', 'royalblue'],
-  red: ['crimson', 'firebrick', 'darkred'],
-};
 
 function App() {
 

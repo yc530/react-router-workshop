@@ -2,12 +2,10 @@ import { useParams} from "react-router-dom"
 
 function Blue() {
 
-const {shade} = useParams()
-
     return (
       <>
         <div className="blue">
-            <h1>Blue - Shade: {shade}</h1>
+            <h1>Blue</h1>
         </div>
       </>
     )
